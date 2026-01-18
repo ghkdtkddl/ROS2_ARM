@@ -1,0 +1,23 @@
+실행방법
+
+[ros2_ws의 build, install, log 폴더가 없을경우]
+
+각폴더 설명
+- build : 빌드 중간 산출물
+- install: 실행파일, setup.bash 생성
+- log : 빌드로그 기록
+1. 워크스페이스로 이동(cd ~/ros2_ws)
+2. build, install, log 삭제(rm -rf build install log)
+3. 빌드 (colcon build)
+4. 환경설정 (source install/setup.bash)
+5. 실행(ros2 launch dsr_moveit_config_e0509 demo.launch.py/ python3 ./src/e0509_control/e0509_control/gui_app.py)
+
+[새로운 터미널에서 시작할 경우]
+1. ROS2 기본 환경 source(sorce /opt/ros/humble/setup.bash)
+2. 워크스페이스 환경 source(cd ~/ros2_ws -> source install/setup.bash)
+3. demo.launch.py 실행 ros2 launch dsr_moveit_config_e0509 demo.launch.py
+4. 다른 터미널에서 pyqt5 실행
+5. ROS2 기본 환경 source(sorce /opt/ros/humble/setup.bash)
+6. 워크스페이스 환경 source(cd ~/ros2_ws -> source install/setup.bash)
+7. pyqt5 실행(python3 ./src/e0509_control/e0509_control/gui_app.py)
+
