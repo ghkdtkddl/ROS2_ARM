@@ -6,7 +6,7 @@ ROS2 패키지 구조를 준수하여 `colcon build` 및 `ros2 run` 명령으로
 
 
 ## 1. 실행 매뉴얼
-### 1) Project Structure
+### 1) 프로젝트 구조
 ```
 ros2_ws/
 ├─ src/
@@ -24,7 +24,7 @@ ros2_ws/
 └─ requirements.txt
 ```
 
-### 2) Environment
+### 2) 환경구성
 
 - OS: Ubuntu 20.04 / 22.04
 - ROS2: Humble
@@ -32,7 +32,7 @@ ros2_ws/
 - Build Tool: colcon
 - Package Type: ament_python
 
-### 3) External Dependency (Doosan Robot)
+### 3) Doosan-Robot2
 
 본 과제는 Doosan 로봇 암 ROS2 패키지를 기반으로 동작한다.  
 해당 패키지는 본 레포지토리에 포함하지 않으며,
