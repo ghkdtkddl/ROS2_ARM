@@ -1,0 +1,10 @@
+# ROS2 Humble base environment
+ros-humble-desktop
+
+# MoveIt2 for motion planning and robot control
+ros-humble-moveit
+ros-humble-moveit-planners
+ros-humble-moveit-ros-planning-interface
+
+# PyQt5 for GUI-based robot control interface
+python3-pyqt5
