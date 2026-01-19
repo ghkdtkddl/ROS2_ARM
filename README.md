@@ -5,6 +5,7 @@ ROS2 패키지 구조를 준수하여 `colcon build` 및 `ros2 run` 명령으로
 정상 실행이 가능하도록 구성하였다.
 
 ## 1. Project Structure
+'''
 ros2_ws/
 ├─ src/
 │ └─ e0509_control/
@@ -19,6 +20,7 @@ ros2_ws/
 ├─ ROS2를_이용한_로봇암.pptx
 ├─ README.md
 └─ requirements.txt
+'''
 
 ## 2. Environment
 
@@ -34,10 +36,13 @@ ros2_ws/
 해당 패키지는 본 레포지토리에 포함하지 않으며,
 아래와 같이 별도로 다운로드하여 사용한다.
 
-### Doosan Robot Package 다운로드
+### Doosan Robot Package 다운로드 및 실행
 
 ```bash
 cd ros2_ws/src
 git clone https://github.com/doosan-robotics/doosan-robot2.git
-
+cd ros2_ws
+colcon build
+source install/setup.bash
+ros2 run e0509_control my_node
 
