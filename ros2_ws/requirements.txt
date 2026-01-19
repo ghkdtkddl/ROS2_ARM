@@ -1,10 +1,10 @@
-# ROS2 Humble base environment
+# ROS2 기본 실행 환경
 ros-humble-desktop
 
-# MoveIt2 for motion planning and robot control
+# MoveIt2 패키지
 ros-humble-moveit
 ros-humble-moveit-planners
 ros-humble-moveit-ros-planning-interface
 
-# PyQt5 for GUI-based robot control interface
+# PyQt5 패키지
 python3-pyqt5
