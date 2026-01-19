@@ -111,5 +111,8 @@ ros2 run e0509_control my_node
 ## 5. 프레임워크
 
 ```
-- ROS2 : 
+- ROS2 : 노드 실행 및 통신 구조 제공
+- Doosan-robot2 : Doosan 로봇 ROS2 패키지
+- MoveIt2 /Rviz : 경로 계획 및 시각화 지원
+- PyQt : 사용자 입력 GUI 제공
 ```
